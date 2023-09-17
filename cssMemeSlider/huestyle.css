@@ -56,13 +56,15 @@ img {
 	height: 2vh;
 	width: 2vh;
 	border-radius: 50%;
-	border: 2px solid darkolivegreen;
+	background-color: darkolivegreen;
 	cursor: pointer;
 	transition: all 0.3s;
 	margin: 0.6vh;
+	padding: 1vh;
+	border: 1.5vh solid gray;
 }
 .controls label:hover {
-	background-color: darkolivegreen;
+	background-color: wheat;
 }
 
 .texts {
@@ -110,27 +112,27 @@ img {
 
 #img0:checked ~ .controls .label-0 {
 	background-color: wheat;
-	border-color: wheat;
+	border-color: gray;
 	cursor: auto;
 }
 #img1:checked ~ .controls .label-1 {
 	background-color: wheat;
-	border-color: wheat;
+	border-color: gray;
 	cursor: auto;
 }
 #img2:checked ~ .controls .label-2 {
 	background-color: wheat;
-	border-color: wheat;
+	border-color: gray;
 	cursor: auto;
 }
 #img3:checked ~ .controls .label-3 {
 	background-color: wheat;
-	border-color: wheat;
+	border-color: gray;
 	cursor: auto;
 }
 #img4:checked ~ .controls .label-4 {
 	background-color: wheat;
-	border-color: wheat;
+	border-color: gray;
 	cursor: auto;
 }
 
