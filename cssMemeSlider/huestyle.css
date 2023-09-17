@@ -85,3 +85,71 @@ img {
 	display: inline;
 	margin: auto;
 }
+
+#img0:checked ~ .carousel ul {
+	margin-left: 0;
+	transition: all 0.8s ease-in-out;
+}
+#img1:checked ~ .carousel ul {
+	margin-left: -100%;
+	transition: all 0.8s ease-in-out;
+}
+#img2:checked ~ .carousel ul {
+	margin-left: -200%;
+	transition: all 0.8s ease-in-out;
+}
+#img3:checked ~ .carousel ul {
+	margin-left: -300%;
+	transition: all 0.8s ease-in-out;
+}
+#img4:checked ~ .carousel ul {
+	margin-left: -400%;
+	transition: all 0.8s ease-in-out;
+}
+
+#img0:checked ~ .controls .label-0 {
+	background-color: wheat;
+	border-color: wheat;
+	cursor: auto;
+}
+#img1:checked ~ .controls .label-1 {
+	background-color: wheat;
+	border-color: wheat;
+	cursor: auto;
+}
+#img2:checked ~ .controls .label-2 {
+	background-color: wheat;
+	border-color: wheat;
+	cursor: auto;
+}
+#img3:checked ~ .controls .label-3 {
+	background-color: wheat;
+	border-color: wheat;
+	cursor: auto;
+}
+#img4:checked ~ .controls .label-4 {
+	background-color: wheat;
+	border-color: wheat;
+	cursor: auto;
+}
+
+#img0:checked ~ .texts ul {
+	margin-left: 0;
+	transition: all 0.3s;
+}
+#img1:checked ~ .texts ul {
+	margin-left: -100%;
+	transition: all 0.3s;
+}
+#img2:checked ~ .texts ul {
+	margin-left: -200%;
+	transition: all 0.3s;
+}
+#img3:checked ~ .texts ul {
+	margin-left: -300%;
+	transition: all 0.3s;
+}
+#img4:checked ~ .texts ul {
+	margin-left: -400%;
+	transition: all 0.3s;
+}
